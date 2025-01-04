@@ -1,0 +1,221 @@
+/* Importing Font style Start  */
+
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Importing Font style End  */
+
+/* Universal style Css Start  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Universal style Css Start  */
+
+/* Body style Start  */
+body {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #F5F7F8;
+    height: 100vh;
+    color: #192A51;
+
+}
+
+/* Body style End  */
+
+/* copyright section style Start  */
+.copyright {
+    font-family: "Bonheur Royale", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* copyright section style End  */
+
+main{
+    width: 850px;
+    height: 700px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.image{
+    position: absolute;
+    z-index: -1;
+}
+
+.img_1{
+    height: 450px;
+    right: -94px;
+    bottom: 0;
+}
+
+.img_2{
+    height: 450px;
+    right: 112px;
+    top: 0;
+}
+
+.img_3{
+    height: 397px;
+    left: -24px;
+}
+
+.img_4{
+    height: 392px;
+    right: 43px;
+    bottom: 0;
+}
+
+.img_5{
+    height: 408px;
+    bottom: 0;
+}
+
+.img_6{
+    height: 500px;
+    top: 0;
+    transform: scaleX(-1);
+}
+
+.img_7{
+    height: 230px;
+    bottom: 0;
+}
+/* to-do app body Style start  */
+.to_do_container {
+    width: 450px;
+    height: 550px;
+    border-radius: 6px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 12px;
+
+}
+
+/* to-do app body Style end  */
+
+/* App head style CSS Start  */
+
+.app_head {
+    display: flex;
+    gap: 12px;
+}
+
+.app_head h2 {
+    font-size: 32px;
+    margin-left: 8px;
+}
+
+.app_head img {
+    width: 44px;
+}
+
+/* App head style CSS End  */
+
+/* Input Section style CSS Start  */
+.input_section {
+    width: 75%;
+    height: 40px;
+    margin: auto;
+    margin-top: 24px;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: none;
+
+}
+
+.input_section input {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    border: none;
+    padding: 0 12px;
+    font-size: 18px;
+    background-color: #F4F6F8;
+    outline: none;
+
+}
+
+.input_section button {
+    width: 30%;
+    height: 95%;
+    border-radius: 50px;
+    position: absolute;
+    right: 0;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    background-color: #2196F3;
+}
+
+.input_section button:active {
+    background-color: #0f8bf0;
+}
+
+/* Input Section style CSS End  */
+
+/* List Section style CSS Start  */
+.list_section {
+    /* border: 1px solid black; */
+    margin: 24px 12px;
+}
+
+/* List Section style CSS End  */
+
+
+/* List items style CSS Start  */
+
+.list_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 8px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.tasks {
+    display: flex;
+    gap: 14px;
+}
+
+.text_content {
+    font-size: 18px;
+}
+
+
+.option_btn{
+    display: flex;
+}
+.btn {
+    padding: 12px 14px;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn i {
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn:nth-child(1){
+    background-color: #2196F3;
+}
+.btn:nth-child(2){
+    background-color: red;
+}
