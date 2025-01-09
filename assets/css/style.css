@@ -221,7 +221,7 @@ main {
     height: 24px;
     position: absolute;
     left: 0;
-    background-image: url(/assets/image/uncheck.png);
+    background-image: url(./assets/image/uncheck.png);
     background-position: center;
     background-size: cover;
 }
@@ -234,7 +234,7 @@ main {
     content: "";
     width: 24px;
     height: 24px;
-    background-image: url(/assets/image/check.png);
+    background-image: url(./assets/image/check.png);
     
 }
 
